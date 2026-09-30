@@ -17,8 +17,6 @@
 		
 		body{font-family: "Outfit", sans-serif; sans-serif;
 			font-size: large;
-			align-items: center;
-			justify-content: center;
 			line-height: 50%;
 			margin: 5rem;
 			padding: 1rem;
@@ -26,7 +24,6 @@
 
     /* Other Elements */
 	
-
 		img{width: 500px; 
 			margin: 1rem;
             align-items: center;
@@ -39,9 +36,15 @@
         }
 
         button{font-size: 1rem;
-                margin: 1px;
-                align-items: center;
+            	margin: 1px;
+				color: blue;
         }
+
+		.citation {border: 2px solid blue;}
+		.buttons{display: flex; justify-content: center; gap: 10px;}
+
+		p {max-width: 80ch;}
+
 
 </style>
 
@@ -52,17 +55,17 @@
 
 		<img src="images/charleseames.jpg" alt="Charles Eames">
 
-		<div>
+		<div class="citation">
 			<p>"To be a good designer you must be a good engineer </p>
 			<p> every sense: curious, inquisitive."</p>
 			<h5>- Charles Eames.</h5>
-
 		</div>
 
-		<button onclick="window.location.href='index.html';">Next</button>
-		<button onclick="window.location.href='index.html';">Back</button>
+		<div class="buttons">
+			<button onclick="window.location.href='index.html';">Next</button>
+			<button onclick="window.location.href='index.html';">Back</button>
+		</div>
 
-
-	</body>
+	</body>+
 
 </html>

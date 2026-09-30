@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flex System</title>
+
+	<style>
+
+		.row {display: flex; gap: 1rem;}
+		.row > * {flex: 1;}
+		/*   * - universal, > - direct children (colonnes)   */
+
+		.row2 {display: flex; gap: 1rem;}
+		.row2 > * {flex: 1; align-content: flex-end;}
+
+
+	</style>
+
+</head>
+
+
+<body>
+	
+	<div class="row">
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt cupiditate consectetur adipisci necessitatibus magni inventore, nobis animi cumque tempora corrupti aliquam, odit esse tempore illum recusandae ipsa. Quo, rerum repellat.</p>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias reprehenderit in quam totam! Nemo voluptatem similique itaque provident magnam adipisci suscipit molestiae, consectetur quisquam, sequi asperiores omnis ut. Sequi, nihil.</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quidem exercitationem itaque, earum ex quo quia nihil corrupti fuga nam aliquid facere quos perferendis laborum beatae rem, iusto minus doloremque?</p>
+	</div>
+
+	<main class="row2">
+
+		<section>
+			<h1>Title</h1>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quas culpa facilis velit nihil pariatur eaque illum, inventore sed amet ducimus unde natus consectetur porro, delectus temporibus exercitationem reprehenderit vero.</p>
+		</section>
+
+		<div class="row2">
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, natus blanditiis voluptas non molestiae quam, voluptatem quos, sed reiciendis expedita earum similique! Animi doloribus ea corrupti enim consequatur dolores cumque!</p>
+			</div>
+			<div>
+				Kikou!
+			</div>
+		</div>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod exercitationem nulla ex, mollitia libero, cupiditate aliquid id debitis optio temporibus voluptate suscipit minima harum, ad quidem sapiente natus eligendi.</p>
+
+	</main>
+
+</body>
+
+</html>

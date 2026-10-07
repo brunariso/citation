@@ -9,56 +9,72 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
-    <style>
 
-    /* Typography */
-        
-        body{font-family: "Scoutie Sans", sans-serif;
-            font-size: large;
-            align-items: center;
+<style>
 
-            line-height: 50%;
-		      	margin: 5rem; 
+	/* Typography */
+		
+		body{font-family: "Outfit", sans-serif; sans-serif;
+			font-size: large;
+			line-height: 50%;
+			margin: 5rem;
+			padding: 1rem;
         }
 
     /* Other Elements */
-
-        img{width: 500px;
-            margin: 1rem;
+	
+		img{width: 500px; 
+			margin: 1rem;
             align-items: center;
         }
 
-		    div{margin: 2rem;
-            border: 2px solid rgb(178, 178, 178);
-			      padding: 10px;
-            border-radius: 1rem;
-		    }
-
-        button{font-size: 1rem;
-                margin: 1px;
-                align-items: center;
+		div{margin: 2rem;
+			padding: 10px;
+			border-radius: 1rem;
         }
 
-    </style>
+        button{font-size: 1rem;
+            	margin: 1px;
+				color: orangered;
+        }
 
-    </head>
+		.citation {border: 2px solid orangered; 
+                    display: flex; 
+                    justify-content: center;
+        }
 
-      <body>
+		.buttons {display: flex; 
+                    justify-content: center; 
+                    gap: 10px;
+        }
 
-        <img src="images/oscarwilde.jpg" alt="Oscar Wilde">
-
-    <div>
-		
-      <p>"Fashion is a form of <b>ugliness</b> so intolerable that</p>
-      <p>we have to <b>alter</b> it every six months."</p>
-      <h5>- Oscar Wilde.</h5>
-
-    </div>
-
-    <button onclick="window.location.href='citation - viran anuradha dayaratne.html';">Next</button>
-    <button onclick="window.location.href='index.html';">Back</button>
+		p {max-width: 80ch;}
 
 
-    </body>
+</style>
+
+
+</head>
+
+	<body>
+
+		<img src="images/oscarwilde.jpg" alt="Oscar Wilde">
+
+		<div class="citation">
+
+             <p>"Fashion is a form of <b>ugliness</b> so intolerable that we have to <b>alter</b> it every six months."</p>
+             <h5>- Oscar Wilde.</h5>
+
+		</div>
+
+
+        <link rel="stylesheet" href="nav.css">
+            <nav id="panel">
+                <a href="index.html">Back</a>
+                <a href="index.html">Home</a>
+                <a href="citation - viran anuradha dayaratne.html">Next</a>
+            </nav>
+
+	</body>
 
 </html>
